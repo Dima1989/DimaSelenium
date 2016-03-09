@@ -14,7 +14,7 @@ public class BuyProductRozetka {
         driver.get("http://rozetka.com.ua/");
         driver.findElement(By.cssSelector("div[name='header-search-input-text-wrap']")).sendKeys("Гитара");
 
-
+zxcxzc
             }
 
 }
