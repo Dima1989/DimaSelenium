@@ -38,6 +38,7 @@ public class LookBookSlider {
         driver.findElement(By.cssSelector("div#lookbook-slider div[class='control right-control']")).click();
         Thread.sleep(1500L);
         driver.findElement(By.cssSelector("div#lookbook-slider>ul li.active>div>a")).click();
+        Thread.sleep(2000L);
         String actual = driver.getCurrentUrl();
         System.out.println("Ecpected result " + expected);
         System.out.println("Actual result " + actual);
