@@ -45,7 +45,7 @@ public class ProductPageScrollButton {
         Map<String, String> map = new HashMap<String, String>();//store test results
 //        System.out.println(Products.size());
 //        Long hight = (Long) executor.executeScript("return window.innerHeight;");
-        for (int i = 0; i < Products.size() - 45; i++) {//click down
+        for (int i = 0; i < Products.size(); i++) {//click down
             Thread.sleep(3000L);
             List<WebElement> Products1 = driver.findElements(By.cssSelector("div[class='col s8 m4 item'] div[class='col s8 l6 offset-l1']>a"));
             Products1.get(i).click();
